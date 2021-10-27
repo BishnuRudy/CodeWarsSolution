@@ -5,7 +5,7 @@ function shortestWord(string) {
 		if(elem.length < smallest.length)
 			smallest = elem;
 		return smallest;
-	} )	
+	} ).length;
 }
 
 console.log(shortestWord("apple is fruit"));
